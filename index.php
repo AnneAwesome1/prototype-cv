@@ -50,14 +50,12 @@ require 'connexion.php';
       <!-- ---------------------------------------------------------------------------------- -->
       <?php foreach ($blockMenu as $cle => $valeur) : ?>
 
-        <a href="<?php echo $valeur[0] ?>" class="" id="">
+        <a href="<?php echo $valeur[0]?>" class="" id="">
 
           <button class="men" id="" type="button">
 
             <h3 id="h3nav">
-
               <?php echo $valeur[1] ?>
-
             </h3>
 
           </button></a>
@@ -343,11 +341,11 @@ A PROPOS ///////////////////////////////////////////////////////////////////////
               </strong>
               <br>
 
-              <strong>Mobile : 06 41 53 30 51</strong></li>
+              <strong>06 41 53 30 51</strong>
               <br>
 
               <strong>
-                Adresse : LE BARCARES 66420
+                LE BARCARES 66420
               </strong>
 
             </p>

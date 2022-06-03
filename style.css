@@ -52,6 +52,7 @@ h3,#cpt,
 #submit, 
 #btn 
 { 
+  font-size : 2em;
   font-family : syncopate;
   color: transparent;
   background: #50798e;
@@ -72,7 +73,8 @@ a , p
 }
 p{
   color:white;
-  font-weight:400;
+
+  font-size : 1em;
 }
 
 a 
@@ -95,14 +97,16 @@ nav
   border-radius: 20px;
 
 }
+h3, #DO, #OS
+{
+  font-weight: bolder;
+  
+}
 #h3nav
 {
   font-family: quicksand;
-  font-weight: bolder;
-font-size:1.5vw;
+  font-size:1.5vw;
 }
-
-
 
 .logo > img 
 {
@@ -121,13 +125,14 @@ filter: drop-shadow(2px 2px 2px #50798e);
   font-family: quicksand;
 }
 button.men {
+  width :80%;
   border-radius: 33px;
   border: none;
-  margin-left: 5px;
-  margin-right: 5px;
+  /* margin-left: 5px;
+  margin-right: 5px; */
   padding-left :20px;
   padding-right :20px;
-  box-shadow: 0px 0px 13px white;
+  box-shadow: 0px 0px 6px white;
 }
 
 .top{
@@ -160,9 +165,11 @@ z-index : 9999;
 margin-top :12%;
 margin-left: 7%;
 }
+
 .tooltip:hover .top{
 display: block;
 }
+
 .tooltip:hover .top2{
   display: block;
   }
@@ -172,6 +179,7 @@ display: block;
   word-break: break-word;
   font-family: "Nunito", sans-serif;
 }
+
 #FLLSTCK:hover
 {
   -webkit-box-shadow: #fff 0 -3px 13px, 6px 6px 13px 6px rgba(0, 0, 0, 0);
@@ -185,8 +193,8 @@ button.bttn, #print {
   margin: auto;
   margin-top: 3%;
   margin-bottom: 3%;
-  width: 88%;
-  height: 7%;
+  width: 96%;
+  height: 20%;
   border: none;
   border-radius: 66px;
   text-align: center;
@@ -277,12 +285,12 @@ button.bttn, #print {
 
 .imgcpt
 {
-  filter: drop-shadow(0px 0px 2px white);
-width : 25%;
+  filter: drop-shadow(0px 0px 2px #50798e);
+width : 30%;
 }
 
 .pcmpt{
-  font-size: 0.7em;
+  font-size: 1em;
   color: white;
 }
 
@@ -304,9 +312,11 @@ width : 25%;
   transition : all 0.1s ease-out;
   z-index: 3;
 }
+
 #p_form_os, #p_form_do{
   display:none;
 }
+
 .for:hover{
   filter: drop-shadow(0px 0px 2px white);
 }
@@ -334,7 +344,7 @@ width : 25%;
 }
 
 .formations_os, .formations_do, .Frmlg, a.for{
-  width:45%;
+  width:90%;
   height : 100%;
   margin: auto;
   margin-top: 1%;
@@ -345,14 +355,19 @@ width : 25%;
   background-color:#304b5874;
   box-shadow: 0px 0px 13px #50798e;
   border-radius: 20px;
-padding:1%;
+  padding:1%;
 }
+
 a.for{
-  background-image:url("Artboard_3.png");
+  position : relative;
+  top : 70px;
+  /* background-image:url("Artboard_3.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  font-size : 2em;
 }
+
 .Frmlg 
 {
   display: flex;
@@ -360,35 +375,31 @@ a.for{
   text-align: center;
   justify-content: center;
   width:95%;
-  height: 77px;
+  height: 150px;
   margin : auto;
   margin-bottom:1%;
   background-image:url("Artboard_3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-
 }
 
 
 .frmlg {
-  width : 40%;
+  width :80%;
   margin : auto;
-  
-
 }
 
 .curri{
   width : 95%;
   margin : auto;
   margin : 1%;
-  
   padding-bottom : 1%;
   border-radius :13px;
-  background-image:url("Artboard_3.png");
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
+  /* background-image:url("Artboard_3.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #curri{
@@ -398,13 +409,11 @@ background-attachment: fixed;
   box-shadow: 0px 0px 13px #50798e;
   border-radius :13px;
   display: none;
-
 }
+
 #cv{
-  
   display: flex;
   margin: auto;
- 
 }
 
 
@@ -544,37 +553,50 @@ button#submit.btn{
     display:flex;
     flex-direction: column;
     position: relative;
-    height: 10px;
     z-index: 99;
   }
-
-  .formations_do{
-    width:95%;
+  .men{
+    background-color : unset; 
+    
   }
 
-  .formations_os{
+  .formations_os, .formations_do {
     width:95%;
   }
 
  #p_form{
    display: flex;
-   
  }
 
  .frmtn{
    display:flex;
    flex-direction: column;
  }
- .logo > img {
+ .logo {
 display:none;
 
  }
+ h3{
+   font-size : 2em;
+ }
 
-*, #h3nav{
-  font-size : 2vw;
+#h3nav{
+  font-size : 1em;
 }
-p, a {
-  font-size : 3vw;
+
+a{
+  font-size : 1em;
+  width : 96%;
+}
+
+.for{
+  font-size : 2em;
+  width : 90%;
+}
+
+
+p{
+  font-size : 1.5em;
 }
 
 #CMPTNCS, #FRMTNS, #APRPS,#CNTCT, .ACCUEIL, #CV, nav{
@@ -582,13 +604,25 @@ p, a {
   transition: 1s ease-in-out;
 }
 
+.imgcpt{
+  width :100%;
+}
+
+#acont{
+  font-size : 2em;
+  color :black;
+}
+
+.pcmpt, #cpt{
+display : none;
+}
 
 }
 
 
 
 #cont{
-  width : 80%;
+  width : 96%;
   display : flex; 
   margin : auto;
   flex-direction : column;
@@ -603,22 +637,25 @@ p, a {
 
 }
 
-#acont{
+#acont
+{
+  font-size : 2em;
 background: linear-gradient(to right, #50798e 0%, rgb(75, 75, 75) 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color : transparent;
+
 }
 
 #acont:hover{
   font-weight: bolder ;
-  font-size: 2em;
-  word-break:break-word;background: linear-gradient(to right, #50798e 0%, rgb(75, 75, 75) 50%, aqua 100%);
+  
+  word-break:break-word;background: linear-gradient(to right, fuchsia 0%, rgb(75, 75, 75) 50%, aqua 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 
 }
 #contact{
-
+font-size : 1em;
  word-break:break-word;background: linear-gradient(to right, white 0%, black 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
