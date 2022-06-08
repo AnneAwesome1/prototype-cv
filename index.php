@@ -201,11 +201,12 @@ A PROPOS ///////////////////////////////////////////////////////////////////////
     <section id="APRPS">
       <a href="#apropos" class="section" id="apropos"><button class="bttn" type="button">
           <h3 id="btn">A PROPOS</h3>
-        </button></a>
+        </button>
+      </a>
       <p id="prpss">
         En reconversion depuis le début de la pandémie, j'ai commencé la programmation par Hasard. <br>
-        C'est l'élément indispensable pour créer des sites dynamiques, responsives. <br>
-        La création d'applications n'est pas mon objectif, je m'oriente d'avantage sur la mise en page de site et la récupération de données.
+        C'est l'élément indispensable pour créer des sites dynamiques et responsives. <br>
+        La création d'applications n'est pas mon objectif, je m'oriente d'avantage sur la mise en page de site Web et la récupération de données.
       </p>
 
     </section>

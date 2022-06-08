@@ -296,21 +296,19 @@ width : 30%;
 
 #OSE, #DOR{
   background-color: white;
-  width: 96%;
   margin : auto;
-  margin-top: 3%;
-  margin-bottom: 3%;
   border: none;
   border-radius: 20px;
   text-align: center;
   justify-content: center;
   box-shadow: 0px 0px 13px #50798e;
-    background-image:url("Artboard_3.png");
+  background-image:url("Artboard_3.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   transition : all 0.1s ease-out;
   z-index: 3;
+  padding-bottom : 2%;
 }
 
 #p_form_os, #p_form_do{
@@ -347,25 +345,29 @@ width : 30%;
   width:90%;
   height : 100%;
   margin: auto;
-  margin-top: 1%;
-  margin-bottom: 1%;
+  /* margin-top: 1%;
+  margin-bottom: 1%; */
+  margin : 1%;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-  background-color:#304b5874;
-  box-shadow: 0px 0px 13px #50798e;
+  /* background-color:#304b5874;
+  box-shadow: 0px 0px 13px #50798e; */
   border-radius: 20px;
   padding:1%;
 }
 
 a.for{
-  position : relative;
+  /* position : relative; */
+  display : flex;
   top : 70px;
   /* background-image:url("Artboard_3.png"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   font-size : 2em;
+  margin : auto;
+
 }
 
 .Frmlg 
@@ -640,7 +642,7 @@ display : none;
 #acont
 {
   font-size : 2em;
-background: linear-gradient(to right, #50798e 0%, rgb(75, 75, 75) 100%);
+background: linear-gradient(to right, #50798e 0%, rgb(37, 37, 37) 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color : transparent;
 
